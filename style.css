@@ -3,6 +3,7 @@ header {
     background-image: url('/resources/Banner Image.png');
     background-repeat: no-repeat;
     background-position-x: center;
+
    
     
 }
@@ -14,6 +15,14 @@ header > section {
     font-family: 'Merriweather', serif;
     font-size: 72px;
     line-height: 14px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 85%);
+    margin-left: 260px;
+    margin-right: 260px;
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+
   
    
    
@@ -28,4 +37,9 @@ header > section > p {
     font-weight: 400;
     margin-bottom: 0%;
    
+}
+
+.sale{
+    text-align: center;
+    
 }
