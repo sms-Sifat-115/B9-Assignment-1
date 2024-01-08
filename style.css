@@ -1,3 +1,4 @@
+/* This Website is designed on width: 1320px */
 header {
     height: 600px;
     background-image: url('/resources/Banner Image.png');
@@ -120,6 +121,7 @@ header > section > p {
 .invitation > div > img {
     padding-top: 50px;
     padding-right: 150px;
+
 }
 #in-text {    
     width: 1320px;
