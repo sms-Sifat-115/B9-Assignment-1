@@ -17,8 +17,9 @@ header > section {
     line-height: 14px;
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 85%);
-    margin-left: 260px;
-    margin-right: 260px;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    
     width: 1320px;
     height: 600px;
     flex-shrink: 0;
@@ -69,4 +70,60 @@ header > section > p {
 }
 .sale > div > img {
     margin: 75px;
+}
+.invitation{
+    background-image: url('/resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    display: flex;
+    /* padding:0% 15%; */
+    margin-bottom: 100px;
+    
+}
+
+.invitation > div > h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; 
+    letter-spacing: 7.04px;
+    padding: 0%;
+    margin-bottom: 0%;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+.invitation > div > p {
+    padding-right: 150px ;
+    color: aliceblue;
+    padding-bottom: 20px;
+    padding-left: 150px;
+}
+.invitation > div > a {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 3%;
+    margin-left: 200px;
+}
+.invitation > div > a:hover {
+    background-color: #f00;
+    padding: 20px 15px;
+    border-radius: 5px;
+}
+.invitation > div > img {
+    padding-top: 50px;
+    padding-right: 150px;
+}
+#in-text {    
+    width: 1320px;
+    height: 600px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 16px;
 }
