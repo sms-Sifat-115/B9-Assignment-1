@@ -24,6 +24,8 @@ header > section {
     width: 1320px;
     height: 600px;
     flex-shrink: 0;
+    position: sticky;
+    left: 14.5%;
 
   
    
@@ -128,4 +130,39 @@ header > section > p {
     height: 600px;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     border-radius: 16px;
+    
+}
+.event {
+    text-align: center;
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding-top: 100px;
+    border-radius: 16px;
+    margin-bottom: 5%;
+}
+.event > div > p{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+   
+}
+.event > div > button {
+    color: #FFF;
+    background-color: #f00;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    padding: 15px 25px;
+    margin-top: 25px;
+}
+.event > div > p > span {
+    color: #f00;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
 }
