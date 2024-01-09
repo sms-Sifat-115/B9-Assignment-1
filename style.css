@@ -241,3 +241,45 @@ header > section > p {
 .offer-time {
     margin-left: 50px;
 }
+footer {
+    width: 100%;
+ 
+    background-color: #070211;
+    color: #FFF;
+    text-align: center;
+    padding: 120px 0px;
+    margin: 0%;
+}
+#contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 24px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+#contacts > img {
+    display: inline;
+    margin-right: 10px;
+}
+footer > hr {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    width: 75%;
+}
+#social > img {
+    margin: 0px 24px;
+}
+#rights {
+    display: flex;
+    justify-content: space-around;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
