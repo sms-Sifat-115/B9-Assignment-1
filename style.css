@@ -265,13 +265,15 @@ footer {
 #contacts > img {
     display: inline;
     margin-right: 10px;
+
 }
 footer > hr {
     border: 1px solid rgba(255, 255, 255, 0.15);
     width: 75%;
 }
 #social > img {
-    margin: 0px 24px;
+    margin: 24px;
+
 }
 #rights {
     display: flex;
@@ -282,4 +284,9 @@ footer > hr {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+.newsletter {
+    text-align: center;
+    height: 616px;
+    margin: 5% 0%; 
 }
