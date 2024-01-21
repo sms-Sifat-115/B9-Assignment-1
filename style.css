@@ -279,6 +279,23 @@ footer > hr {
     line-height: 32px; 
     padding-bottom: 80px;
 }
+#a {
+    position: absolute;
+    left: 15%;
+}
+#b{
+    position: relative;
+    margin-top: 123px;
+    left: 250px;
+    z-index: 1;
+}
+#c {
+    position: absolute;
+    margin-left: 78px;
+}
+#d {
+    position: inherit;
+}
 .newsletter {
     text-align: center;
     height: 400px;
@@ -360,21 +377,4 @@ footer {
     text-align: center;
     padding: 100px 0px;
     margin: 0%;
-}
-#a {
-    position: absolute;
-    left: 15%;
-}
-#b{
-    position: relative;
-    margin-top: 123px;
-    left: 250px;
-    z-index: 1;
-}
-#c {
-    position: absolute;
-    margin-left: 78px;
-}
-#d {
-    position: inherit;
 }
