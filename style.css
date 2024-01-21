@@ -62,7 +62,7 @@ header > section > p {
     margin: 75px;
 }
 .invitation{
-    background-image: url('/resources/Vectorrr.png');
+    background-image: url('resources/Vectorrr.png');
     background-repeat: no-repeat;
     background-position-x: center;
     display: flex;
