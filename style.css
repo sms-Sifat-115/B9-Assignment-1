@@ -186,8 +186,9 @@ header > section > p {
     width: 364.844px;
     height: 364.844px;
     border-radius: 364.844px;
-    border: #f00 solid 15px;
-    padding: 10%;
+    border: #f00 solid 12px;
+    padding: 20px;
+    margin-right: 250px;
 }
 .offer-time > h1{
     color: #f00;
@@ -249,6 +250,7 @@ footer > hr {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    padding-top: 100px;
 }
 .holiday > div > h1 {
     color: #070211;
@@ -275,6 +277,7 @@ footer > hr {
     font-style: normal;
     font-weight: 500;
     line-height: 32px; 
+    padding-bottom: 80px;
 }
 .newsletter {
     text-align: center;
@@ -357,4 +360,21 @@ footer {
     text-align: center;
     padding: 100px 0px;
     margin: 0%;
+}
+#a {
+    position: absolute;
+    left: 15%;
+}
+#b{
+    position: relative;
+    margin-top: 123px;
+    left: 250px;
+    z-index: 1;
+}
+#c {
+    position: absolute;
+    margin-left: 78px;
+}
+#d {
+    position: inherit;
 }
